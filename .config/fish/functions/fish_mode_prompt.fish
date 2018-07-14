@@ -1,1 +1,1 @@
-/home/ina/.config/fisherman/agnoster/fish_mode_prompt.fish
+/home/omuricer/.config/fisherman/agnoster/fish_mode_prompt.fish

@@ -1,0 +1,1 @@
+/home/omuricer/.config/fisherman/getopts/getopts.fish

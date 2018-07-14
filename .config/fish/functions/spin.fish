@@ -1,0 +1,1 @@
+/home/omuricer/.config/fisherman/spin/spin.fish
