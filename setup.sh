@@ -16,11 +16,9 @@ WINDOWS_HOME=/mnt/c/Users/$1
 
 
 DOT_FILES=( \
-.bash_history \
 .bash_logout \
 .bashrc \
 .config \
-.profile \
 .tmux.conf \
 .vimrc \
 )
