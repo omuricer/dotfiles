@@ -6,9 +6,8 @@ set -g theme_display_user ssh
 set -g theme_nerd_fonts yes
 
 # for sshagent
-eval (ssh-agent -c)
-ssh-add ~/.ssh/keys/*
-
 # for wsl 1803 
 # http://fish.rubikitch.com/if/
-alias ssh-agent-start='exec ~/local/src/deb/usr/bin/ssh-agent /bin/bash' 
+eval (~/local/src/deb/usr/bin/ssh-agent -c)
+ssh-add ~/.ssh/keys/*
+
