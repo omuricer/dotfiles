@@ -6,3 +6,9 @@ set -g theme_display_user ssh
 set -g theme_git_worktree_support yes
 set -g theme_nerd_fonts yes
 
+# ssh-agent
+eval (ssh-agent -c)
+ssh-add ~/.ssh/keys/*
+function on_exit --on-process %self
+    echo fish is now exiting
+end
