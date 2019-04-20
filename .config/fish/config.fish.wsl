@@ -8,7 +8,7 @@ set -g theme_nerd_fonts yes
 # for sshagent
 # for wsl 1803 
 # http://fish.rubikitch.com/if/
-eval (~/local/src/deb/usr/bin/ssh-agent -c)
+eval (ssh-agent -c)
 ssh-add ~/.ssh/keys/*
 function on_exit --on-process %self
     echo fish is now exiting
