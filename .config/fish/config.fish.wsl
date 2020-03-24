@@ -20,4 +20,6 @@ if not service docker status
   sudo service docker start
 end
 
+set PATH /usr/local/go/bin/ $PATH
+
 cd
