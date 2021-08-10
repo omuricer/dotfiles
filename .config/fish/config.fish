@@ -15,3 +15,4 @@ ssh-add ~/.ssh/keys/*
 set PATH /usr/local/go/bin /home/omuricer/.cargo/bin $PATH
 
 alias ee='exa -aal --icons'
+cd
