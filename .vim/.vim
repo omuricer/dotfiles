@@ -1,0 +1,1 @@
+/home/omuricer/git/dotfiles/.config/.vim

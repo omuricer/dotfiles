@@ -52,6 +52,9 @@ ln -s ~/.ssh /mnt/c/path/to/googledrive/no/reino/directory
 ```fish
 ln -s ~/git/dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 ln -s ~/git/dotfiles/.config/fish/functions/bobthefish_colors.fish ~/.config/fish/functions/bobthefish_colors.fish
+
+ln -s ~/git/dotfiles/.vim ~/.vim
+ln -s ~/git/dotfiles/.vimrc ~/.vimrc
 ```
 
 ### 1-4. comment out 
