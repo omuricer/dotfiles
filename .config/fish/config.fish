@@ -12,6 +12,6 @@ set -g theme_nerd_fonts yes
 eval (ssh-agent -c)
 ssh-add ~/.ssh/keys/*
 
-set PATH /usr/local/go/bin /home/ina/.cargo/bin $PATH
+set PATH /usr/local/go/bin /home/omuricer/.cargo/bin $PATH
 
 alias ee='exa -aal --icons'
